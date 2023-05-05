@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 1vw;
+}
+html::-webkit-scrollbar-track{
+    background-color: #002038;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+.main-background-image{
+    background: url("./Essam.design/Desktop\ -\ 1\ \(2\).png");
+    height: 3600px;
+    background-position: center;
+}
+
+@media(min-width:768px){
+    .animation{
+        width: 48rem;
+    }
+    .animation1{
+        padding: 10px;
+    }
+    .animation2{
+        padding: 10px;
+    }
+    .animation3{
+        padding: 10px;
+    }
+}
+@media (max-width: 767px){
+    .animation{
+        width: 20rem;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .animation1{
+        padding: 4px;
+    }
+    .animation2{
+        padding: 4px;
+    }
+    .animation3{
+        padding: 4px;
+    }
+}
+
+
+
+.animation{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color: #eee; */
+    
+    /* width: 48rem; */
+}
+
+.animation1{
+    /* padding: 10px; */
+    perspective: 300px;
+}
+.animation11{
+    box-shadow:0px 0px 12px 0px black;
+    transform: translate3d(0,0,80px);
+    -webkit-transform: translate3d(0,0,80px);
+    -moz-transform: translate3d(0,0,80px);
+    -ms-transform: translate3d(0,0,80px);
+    -o-transform: translate3d(0,0,80px);
+    
+}
+
+.animation2{
+    /* padding: 10px; */
+    perspective: 100px;
+}
+.animation22{
+    box-shadow:0px 0px 12px 0px black;
+    transform: translate(0,0,10px);
+    -webkit-transform: translate(0,0,10px);
+    -moz-transform: translate(0,0,10px);
+    -ms-transform: translate(0,0,10px);
+    -o-transform: translate(0,0,10px);
+}
+
+.animation3{
+    /* padding: 10px; */
+    perspective: -100px;
+}
+
+.animation33{
+    box-shadow:0px 0px 12px 0px black;
+    transform: translate(0,0,10px);
+    -webkit-transform: translate(0,0,10px);
+    -moz-transform: translate(0,0,10px);
+    -ms-transform: translate(0,0,10px);
+    -o-transform: translate(0,0,10px);
+}
+
+.arrow{
+    position: absolute;
+    left: 36%;
+    top: 94%;
+    transform: translate(-50%,-50%);
+    width: 30.5rem; 
+}
+.arrow2{
+    position: absolute;
+    left: 68%;
+    top: 251%;
+    transform: translate(-50%,-50%);
+    width: 30.5rem;
+}
+.arrow3{
+    position: absolute;
+    left: 50%;
+    top: 191%;
+    transform: translate(-50%,-50%);
+    width: 1.5rem;
+}
+
+@media(min-width:768px){
+    .m-100{
+        margin-top: 28rem;
+    }
+}
